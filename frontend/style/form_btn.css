@@ -1,0 +1,22 @@
+
+/*form btn*/
+
+.btn_f {
+    padding: 0px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #bbbbbb;
+
+    transform: scale(1);
+    transition: all 0.1s ease;
+    
+}
+
+.btn_f:hover {
+    padding: 2px 40px;
+}
+
+.btn_f.dark {
+    background-color: #353434;
+    color: #fff;
+}

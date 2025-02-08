@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SegnUp</title>
+    <link rel="stylesheet" href="./style/form_btn.css">
+    <link rel="stylesheet" href="./style/input_password.css">
+    <link rel="stylesheet" href="./style/output.css">
+    <link rel="stylesheet" href="./style/theme.css">
+</head>
+<body>
+
+    <main class="relative flex justify-center h-[99vh] items-center">
+        <button class="absolute right-0 top-0 theme_btn">Dark/Light</button>
+     
+        <div class="border-1 border-[#6b656f] rounded-[20px]  w-[400px] h-[450px]">
+            <h2 class="text-center text-[30px] font-[600] mt-[30px]">Login</h2>
+        <form method="post" id="form">
+            <div class="inp1 mt-[20px] text-center w-[100%] h-[40px]">
+                <input required class="outline-0 w-[80%] h-[100%] border-1 border-[#6b656f] rounded-[10px] pl-[10px]" name="username" type="text" placeholder="Enter Username">
+            </div>
+
+            <div class="inp2 mt-[20px] text-center w-[100%] h-[40px]">
+                <input required class="inp_p outline-0 w-[80%] h-[100%] border-1 border-[#6b656f] rounded-[10px] pl-[10px]" name="password" type="password" placeholder="Enter Password">
+            </div>
+
+            <div class="text-center my-[20px] f_btn">
+                <button type="submit" class="btn_f text-[24px] bg-[#787373] cursot-pointer">Login</button>
+            </div>
+        </form>   
+        
+        <p class="ml-[50px] mt-[10px]">Нет акаунта? <a href="./segnIn.html" class="text-[#1f52df] hover:text-[#1c4bca]">Зарегистрироватся</a></p>
+        <a href="./restPassword.html" class="ml-[50px] text-[#1f52df] hover:text-[#1c4bca]">Забыли пароль?</a>
+
+        </div>
+
+    </main>
+    <script src="./JS/sign_up.js"></script>
+    <script src="./JS/theme.js"></script>
+</body>
+</html>

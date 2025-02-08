@@ -1,0 +1,42 @@
+:root {
+    --light_theme: #d3d2d2;
+    --light_theme_btn: #000;
+    --light_theme_text: #fff;
+
+    --dark_theme: #000;
+    --dark_theme_btn: #787373;
+    --dark_theme_text: #fff;
+
+}
+
+body {
+    background-color: var(--light_theme);
+}
+
+body.dark {
+    background-color: var(--dark_theme);
+    color: var(--dark_theme_text);
+}
+
+.theme_btn {
+    float: right;
+    background-color: var(--light_theme_btn);
+    color: var(--light_theme_text);
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(1);
+    
+    transition: all 0.1s ease;
+    
+}
+
+.theme_btn:hover {
+    transform: scale(1.1);
+}
+
+.theme_btn.dark {
+    background-color: var(--dark_theme_btn);
+    color: var(--dark_theme_text);
+}
